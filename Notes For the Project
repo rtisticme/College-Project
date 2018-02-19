@@ -22,6 +22,7 @@ HSV color model, YCbCr color space, normalized r-g color space
 Hough Algorithm
 fuzzy c-means clustering
 instrumental glows and optical markers
+counter tracking algorithm 
 
 Artificial Nueral Network (*)
 -The whole process can also be done with the help of Artificial Neural Network (ANN)
@@ -88,9 +89,14 @@ such as r-g, and HS color spaces (Maile ni bujina ahile lain)
 -edge detection or contour operators  
 cannot be used for gesture recognition since many hand postures are generated
 and could produce misclassification
+-Higher resolution image means higher processing 
+-Garbage gestures are also taken into account which must be removed using counter tracking algorithm
 
  Things to look out for:
  the arm must be vertical, the palm is facing the camera, background is uniform
+ Camera frame rate (How many frames a camera records in 1 second e.g 20 frames per second)
+ Distance between hand and camera (e.g for 20 frame it could be 30 to 100 cm from camera)
+ Resolution of Camera is also a factor 
  
  Earlier Techniques:
  -instrumental glows and optical markers [2] 
