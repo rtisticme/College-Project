@@ -20,6 +20,8 @@ Histogram Base Techniques (Based on data input)
 r-g, and HS color spaces
 HSV color model, YCbCr color space, normalized r-g color space
 Hough Algorithm
+fuzzy c-means clustering
+instrumental glows and optical markers
 
 Artificial Nueral Network (*)
 -The whole process can also be done with the help of Artificial Neural Network (ANN)
@@ -89,5 +91,8 @@ and could produce misclassification
 
  Things to look out for:
  the arm must be vertical, the palm is facing the camera, background is uniform
+ 
+ Earlier Techniques:
+ -instrumental glows and optical markers [2] 
 
 
