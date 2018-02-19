@@ -15,6 +15,10 @@ color based thresholding, background subtraction
 convexity defect 
 canny edge detection algorithm 
 skin detection using hue and saturation values
+Gaussian Model(GMM), Gaussian Mixture Model(GMM) - Parametric techniques (x,y,z)
+Histogram Base Techniques (Based on data input)
+r-g, and HS color spaces
+HSV color model, YCbCr color space, normalized r-g color space
 
 Artificial Nueral Network (*)
 The whole process can also be done with the help of Artificial Neural Network (ANN)
@@ -39,7 +43,8 @@ the hand and extract necessary features. This is easy, natural, non invasive and
 
 Applications :
 Robot control, Television control, 3D modelling, Virtual Environments, Graphic Editor Control etc. 
-A complete vision-based surgeon-computer interaction simulator 
+A complete vision-based surgeon-computer interaction simulator
+Security and Surveillance.
 
 Ideads :
 Red color marker on fingertip, only the finger wearing red color marker is detected and it us used for pointing on the computer screen
@@ -60,3 +65,21 @@ Architecture:
 6.The recognized gesture command is sent through serial interfacing and device controlling is done (To write on the screen)
 
 Advantages Over Existing Systems 
+1. Web cameras of  PC’s or Laptops can be used for capturing gesture inputs  (Cheap)
+2. Provides flexibility  to the user and system is portable 
+3. Each image frame is processed and the command is generated in real time. (Storage)
+4.  It is rotation, scaling and orientation invariant (Does not matter)
+
+Problems that may arise:
+-illumination condition changes 
+-different races
+(May using data glove and colored markers)
+-color spaces are sensitive to lighting changes, 
+for this reason, researches tend to use chrominance components only and neglect the luminance components 
+such as r-g, and HS color spaces (Maile ni bujina ahile lain)
+-edge detection or contour operators  
+cannot be used for gesture recognition since many hand postures are generated
+and could produce misclassification
+
+
+
