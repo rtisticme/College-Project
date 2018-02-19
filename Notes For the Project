@@ -19,10 +19,14 @@ Gaussian Model(GMM), Gaussian Mixture Model(GMM) - Parametric techniques (x,y,z)
 Histogram Base Techniques (Based on data input)
 r-g, and HS color spaces
 HSV color model, YCbCr color space, normalized r-g color space
+Hough Algorithm
 
 Artificial Nueral Network (*)
-The whole process can also be done with the help of Artificial Neural Network (ANN)
-ANN algorithm is used to train the system and concluded that edge detection and ANN provides good solution for hand gesture recognition
+-The whole process can also be done with the help of Artificial Neural Network (ANN)
+-ANN algorithm is used to train the system and concluded that edge detection and 
+ANN provides good solution for hand gesture recognition
+-Self-Growing and Self-Organized Neural Gas (SGONG) neural algorithm to capture the shape of the hand (Feature Extraction)
+-Learning Vector Quantization, Principal Component Analysis (PCA) are used for classification 
 
 Intro
 -Gesture is a form of nonverbal communication or non vocal communication in which visible bodily movement 
@@ -45,6 +49,8 @@ Applications :
 Robot control, Television control, 3D modelling, Virtual Environments, Graphic Editor Control etc. 
 A complete vision-based surgeon-computer interaction simulator
 Security and Surveillance.
+Sign Language Recognition 
+Numbers Recognition
 
 Ideads :
 Red color marker on fingertip, only the finger wearing red color marker is detected and it us used for pointing on the computer screen
@@ -81,5 +87,7 @@ such as r-g, and HS color spaces (Maile ni bujina ahile lain)
 cannot be used for gesture recognition since many hand postures are generated
 and could produce misclassification
 
+ Things to look out for:
+ the arm must be vertical, the palm is facing the camera, background is uniform
 
 
