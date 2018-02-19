@@ -1,0 +1,62 @@
+2/19/2018 
+Points to research:
+K-Curvature 
+RGB to grayscale conversion 
+edge detection 
+SVM
+HMM
+Convex HUll Method
+Microsoft Kinect sensor 
+Kalman filters
+thresholding
+thresholding using Ostu’s method
+static threshold value, incremental thresholding value, 
+color based thresholding, background subtraction
+convexity defect 
+canny edge detection algorithm 
+skin detection using hue and saturation values
+
+Artificial Nueral Network (*)
+The whole process can also be done with the help of Artificial Neural Network (ANN)
+ANN algorithm is used to train the system and concluded that edge detection and ANN provides good solution for hand gesture recognition
+
+Intro
+-Gesture is a form of nonverbal communication or non vocal communication in which visible bodily movement 
+communicate particular messages. Gesture includes movement of hands, face or other parts of the body.
+
+-A Gesture is categorized into two distinctive categories Dynamic and Static
+ 
+-Dynamic gesture is intended to change over a period of time where as a static gesture is observed at the spurt time. 
+
+
+Two approaches are commonly used :
+
+1. Methods which use Data gloves: mechanical or optical sensors are attached to a glove that transduces finger
+ flexions into electrical signals for determining the hand posture. This approach forces the user to 
+carry a load of cables which are connected to the computer and hinders the ease and naturalness of the user interaction. 
+2. Methods which are Vision Based: This method is based on the appearance of hand using skin color to segment 
+the hand and extract necessary features. This is easy, natural, non invasive and less cost compared to other method
+
+Applications :
+Robot control, Television control, 3D modelling, Virtual Environments, Graphic Editor Control etc. 
+A complete vision-based surgeon-computer interaction simulator 
+
+Ideads :
+Red color marker on fingertip, only the finger wearing red color marker is detected and it us used for pointing on the computer screen
+
+Methodology 
+1.Collect the picture of gesture taken through the video camera.
+2.Image frame is processed using image processing 
+3.Processed image is used to extract features for gesture recognition. 
+4.Counting number of fingers using the features extracted. 
+4.Command signal is generated and passed to the device  According to the command, the device action takes place. 
+
+Architecture:
+1.Capture the image through the web camera or camera.
+2.Convert the image from RGB to Gray Scale. 
+3.Background is separated by subtracting image from the captured background. 
+4.Binary conversion is done to apply edge detection.
+5.Then K-Curvature algorithm (Others May Be Used) is applied for hand gesture recognition. 
+6.The recognized gesture command is sent through serial interfacing and device controlling is done (To write on the screen)
+
+Advantages Over Existing Systems 
